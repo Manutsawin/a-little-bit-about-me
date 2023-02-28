@@ -8,8 +8,7 @@ const Nav = () =>
    ]
    return (
       <nav className="flex items-center justify-between pt-5">
-         {/* <img src={"./src/assets/icon-close.svg"} className="md:hidden  fixed right-5 cursor-pointer z-20 top-6" /> */}
-         {/* <img src="./src/assets/logo.svg" alt="logo" className="w-10 ml-7" /> */}
+        
          <ul className={`bg-[#ffffff14] backdrop-blur-md  md:pl-10 pr-28 md:static fixed duration-500 ease-linear top-0 md:h-auto h-screen z-10 `}>
             {
                menus.map((menu, index) => (
