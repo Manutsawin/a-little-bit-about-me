@@ -1,7 +1,6 @@
 const Nav = () =>
 {
    const menus = [
-      { name: "HOME" },
       { name: "ABOUT ME" },
       { name: "CONTACT" },
       { name: "STACK" },
